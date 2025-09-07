@@ -12,6 +12,10 @@
 </div>
 
 ---
+# 🚀 Download v1.0
+
+👉 [Download Executable (Windows)](https://drive.google.com/xxxx)  
+👉 [Download Source Code](https://drive.google.com/file/d/1H_TsrWGdzv7s18n9-R2R8FqQC5pHj4w7/view?usp=drivesdk)
 
 ## 🌟 Overview
 
@@ -133,12 +137,7 @@ The bot uses several JSON files for data storage:
 
 ```json
 {
-  "token": "1234567890:ABCdefGhIjKlMnOpQrStUvWxYz",
-  "settings": {
-    "memory_days": 2,
-    "max_thinking_depth": 10,
-    "supported_languages": ["en", "es", "fr", "ru", "ar"]
-  }
+  "token": "1234567890:ABCdefGhIjKlMnOpQrStUvWxYz"
 }
 ```
 
@@ -164,7 +163,7 @@ The bot uses several JSON files for data storage:
 
 - Ensure you have **Python 3.7+** installed
 - Run with administrative privileges if needed
-- Install required dependencies: `pip install -r requirements.txt`
+- Install required dependencies: `Available in the Read Me file`
 
 ### 💻 For Executable Users
 
@@ -244,11 +243,13 @@ For support and questions:
 - ✅ Comprehensive user statistics
 - ✅ Real-time server monitoring
 
-### 🔮 Upcoming Features
-- 📊 Advanced analytics dashboard
-- 🎨 Custom themes and UI
-- 🔗 Integration with more AI models
-- 📱 Mobile app companion
+
+## 🪙 Why This Bot?
+
+| Self-hosted | Open-source | Zero API fees |
+|-------------|-------------|---------------|
+| Your server, your rules | MIT-licensed code | Runs on free g4f providers |
+
 
 ---
 
@@ -259,6 +260,10 @@ For support and questions:
 *After extracting either zip file, please read the included README file for complete installation and setup instructions specific to your version.*
 
 ---
+# 🚀 Download v1.0
+
+👉 [Download Executable (Windows)](https://drive.google.com/xxxx)  
+👉 [Download Source Code](https://drive.google.com/file/d/1H_TsrWGdzv7s18n9-R2R8FqQC5pHj4w7/view?usp=drivesdk)
 
 **Made with ❤️ by HAKORAdev**
 
