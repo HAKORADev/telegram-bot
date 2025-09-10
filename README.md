@@ -14,7 +14,7 @@
 ---
 # 🚀 Download v1.0
 
-👉 [Download Executable (Windows)](https://drive.google.com/xxxx)  
+👉 [Download Executable (Windows)](https://drive.google.com/file/d/1KSwA9Go9HTBDM6TB1zn55lTctw_jEEOD/view?usp=drivesdk)  
 👉 [Download Source Code](https://drive.google.com/file/d/1H_TsrWGdzv7s18n9-R2R8FqQC5pHj4w7/view?usp=drivesdk)
 
 ## 🌟 Overview
@@ -262,7 +262,7 @@ For support and questions:
 ---
 # 🚀 Download v1.0
 
-👉 [Download Executable (Windows)](https://drive.google.com/xxxx)  
+👉 [Download Executable (Windows)](https://drive.google.com/file/d/1KSwA9Go9HTBDM6TB1zn55lTctw_jEEOD/view?usp=drivesdk)  
 👉 [Download Source Code](https://drive.google.com/file/d/1H_TsrWGdzv7s18n9-R2R8FqQC5pHj4w7/view?usp=drivesdk)
 
 **Made with ❤️ by HAKORAdev**
