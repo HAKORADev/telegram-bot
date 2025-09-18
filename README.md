@@ -68,6 +68,54 @@ echo '{"token": "YOUR_TELEGRAM_BOT_TOKEN"}' > token.json
 # 4. Run the executable
 ```
 
+## 🐧 Linux (Ubuntu / Debian / WSL) – Zero-Downtime Install
+
+1. **Prep & clone**
+   ```bash
+   sudo apt update && sudo apt install -y python3 python3-venv git
+   git clone https://github.com/HAKORADev/telegram-bot.git && cd telegram-bot
+   ```
+
+2. **Python environment**
+   ```bash
+   python3 -m venv venv && source venv/bin/activate
+   pip install -U pip -r requirements.txt
+   ```
+
+3. **Insert your token**
+   ```bash
+   echo '{"token":"YOUR_TELEGRAM_BOT_TOKEN"}' > token.json
+   ```
+
+4. **Run forever (systemd)**
+   ```bash
+   # create service
+   sudo tee /etc/systemd/system/telegram-bot.service >/dev/null <<'EOF'
+   [Unit]
+   Description=Telegram AI Bot
+   After=network.target
+   [Service]
+   Type=simple
+   User=$USER
+   WorkingDirectory=$PWD
+   ExecStart=$PWD/venv/bin/python telegram_bot.py
+   Restart=always
+   RestartSec=5
+   [Install]
+   WantedBy=multi-user.target
+   EOF
+
+   # enable & start
+   sudo systemctl daemon-reload
+   sudo systemctl enable --now telegram-bot
+   ```
+
+5. **Check live logs**  
+   `sudo journalctl -u telegram-bot -f`
+
+Done—bot survives reboots and updates with a simple `sudo systemctl restart telegram-bot`.
+```
+
 ### 🔑 Getting a Telegram Bot Token
 
 1. Open Telegram and search for **@BotFather**
