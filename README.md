@@ -114,7 +114,7 @@ echo '{"token": "YOUR_TELEGRAM_BOT_TOKEN"}' > token.json
    `sudo journalctl -u telegram-bot -f`
 
 Done—bot survives reboots and updates with a simple `sudo systemctl restart telegram-bot`.
-```
+
 
 ### 🔑 Getting a Telegram Bot Token
 
